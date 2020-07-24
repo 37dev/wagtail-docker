@@ -1,5 +1,5 @@
 build:
-	docker-compose --file=production.yml build
+	docker-compose build
 
 init:
 	docker-compose --file=production.yml build && docker-compose --file=production.yml up -d
@@ -23,7 +23,7 @@ up:
 	docker-compose --file=production.yml up -d
 
 up-non-daemon:
-	docker-compose --file=production.yml up
+	docker-compose up
 
 down:
 	docker-compose --file=production.yml down
