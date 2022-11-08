@@ -39,7 +39,7 @@
         "jquery.easing": "^1.4.1"
     },
     "devDependencies": {
-        "gulp": "^3.9.1",
+        "gulp": "^4.0.2",
         "del": "5.1.0",
         "gulp-autoprefixer": "7.0.0",
         "gulp-clean-css": "4.2.0",
